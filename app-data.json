@@ -1,0 +1,10 @@
+{
+    "intro-question": "We are running a quiz. You can participant in the quiz any time between 2:50 PM - 4:20 PM.\nReply with a ”1” if you want to participate now (time of connection must be between 2:50 PM - 4:20 PM);\nwith a ”2” if you want to see the results (time of connection must be after 4:20 PM);\nand with ”3” other wise.",
+    "time-range": [
+        "14:50",
+        "16:20"   
+    ],
+    "mcq": "One of these options is right. Guess:\n1\n2\n3\n4",
+    "mcq-answer": "2",
+    "mcq-options": [ "1", "2", "3", "4" ]
+}

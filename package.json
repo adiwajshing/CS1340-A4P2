@@ -1,0 +1,25 @@
+{
+  "name": "cn-sockets",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha --timeout 5000 -r ts-node/register tests/*.ts",
+    "start:server": "ts-node app.ts server --port 5545",
+    "start:client": "ts-node app.ts client --address 127.0.0.1 --port 5545",
+    "start": "ts-node app.ts server client --address 127.0.0.1 --port 5545"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/assert": "^1.5.2",
+    "@types/mocha": "^8.0.4",
+    "@types/node": "^14.14.8",
+    "assert": "^2.0.0",
+    "macaddress": "^0.5.1",
+    "mocha": "^8.2.1",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
+}
